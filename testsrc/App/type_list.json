@@ -1,0 +1,3 @@
+[{"name":"normal","immunes":["ghost"],"weaknesses":["rock","steel"],"strengths":[]},
+  {"name":"ground","immunes":["flying"],"weaknesses":["grass","bug"],"strengths":["fire","electric","poison","rock","steel"]}
+]
