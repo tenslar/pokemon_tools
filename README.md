@@ -1,5 +1,7 @@
 # PokemonTools: Pokémon battle support tools
 
+[![tenslar](https://circleci.com/gh/tenslar/pokemon_tools.svg?style=svg)](https://app.circleci.com/pipelines/github/tenslar/pokemon_tools)
+
 PokemonTools is a some calculating tools you need to make a strong Pokémon.
 It is created in simple PHP.
 
@@ -30,8 +32,6 @@ steel:x0.5
 - [PHPUnit9.4.*](https://packagist.org/packages/phpunit/phpunit)
 
 ## Installation
-
-Install [HHVM](https://docs.hhvm.com/hhvm/installation/introduction#prebuilt-packages).
 
 Clone this repository, And Composer install.
 ```sh
