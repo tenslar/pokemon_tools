@@ -7,7 +7,7 @@ use App\Domain\PokemonBuilder;
 use App\Infrastructure\TypeList;
 use App\Presenter\PokemonCompatibilityDisplay;
 
-class Usecase
+class UsecaseCompatibility
 {
     public function execute(string $pokemon_name, array $pokemon_types, $type_data_path): PokemonCompatibilityDisplay
     {

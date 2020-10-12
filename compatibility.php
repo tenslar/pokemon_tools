@@ -11,6 +11,6 @@ $single_line_input = str_replace(array("\r\n","\r","\n"), '', $single_line_input
 //スペースで分解して配列に格納
 $array = explode(" ", $single_line_input);
 
-$usecase = new \App\Usecase();
+$usecase = new \App\UsecaseCompatibility();
 $display = $usecase->execute($array[0], explode(',', $array[1]), $path);
 $display->show();
